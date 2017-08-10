@@ -29,10 +29,10 @@ class CustomBuild(build_py):
 
 
 
-with open('README.rst') as f:
+with open('README.rst',encoding='utf8') as f:
     readme = f.read()
 
-with open('license.txt') as f:
+with open('license.txt',encoding='utf8') as f:
     license = f.read()
 
 
